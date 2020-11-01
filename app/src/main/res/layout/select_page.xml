@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         android:background="#7FFFD4"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/sports"
+            android:src="@mipmap/cricket"
+            android:onClick="sports"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/txt_sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPORTS"
+            android:textSize="20sp"
+
+            android:fontFamily="serif-monospace"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/tech"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+
+            android:onClick="tech"
+            android:src="@mipmap/tech"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_tech"
+            android:fontFamily="serif-monospace"
+            android:text="TECHNOLOGY"
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/top"
+            android:id="@+id/headlines"
+            android:layout_marginBottom="10dp"
+            android:onClick="headLines"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/txt_headlines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:text="TOP-HEADLINES"
+            android:textColor="#000"
+
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
